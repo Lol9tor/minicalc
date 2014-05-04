@@ -1,0 +1,34 @@
+<html>	
+<head>
+<script type="text/javascript" src="main.js">
+	
+</script>
+</head>
+
+<body>
+<h1>The activity with number</h1>
+
+		<form name="Form1" action="calc.html" method="get">
+	        <fieldset id="ff1">
+			Enter number<input type="text" id="number" name="number" size="4" maxlength="5">		 			 						 						
+			</fieldset>
+			<input type="button" value="Add number" onclick="AddNumber()" name="add">
+			<br><br>
+			
+			<input type="radio" value="sum" id="l1" name="result" /><label for="l1">Sum:</label>        
+			<input type="radio" value="product" id="l2" name="result" /><label for="l2">Product:</label> 		
+			<input type="radio" value="avarage" id="l3" name="result" checked/><label for="l3">Avarage:</label> 		  
+			<input type="radio" value="sort1" id="l4" name="result" /><label for="l4">Sort(from min to max):</label> 		  
+			<input type="radio" value="sort2" id="l5" name="result" /><label for="l5">Sort(from max to min):</label><br><br> 			
+			
+			<input type="button" onclick="makeCalculation()"  value="Show result" /><br>
+			<input type="reset" value="Reset" name="clean">
+			<span id="ff2"><h2>Look down if you want know the result</h2><br></span>
+	</form>		
+
+	
+	
+
+
+</body>
+</html>
